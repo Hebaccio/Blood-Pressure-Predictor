@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Pressure Predictor</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+  <h1 class="main_title">Blood Pressure Predictor</h1>
+
+    <!-- Result Section -->
+    
+    
+    <div class="main_container">
+      <div class="proper_container">
+        <h2>Result:</h2>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+
+    <!-- Form to Predict Blood Pressure -->
+    <div class="main_container">
+      <div class="proper_container">
+        <form id="predict-form">
+          <h2>Predict Blood Pressure</h2>
+          <label for="predict-date">Workday? (1/0):</label>
+          <input type="text" id="workday" placeholder="e.g. (1/0)" required>
+          
+          <label for="predict-time">Stress Levels:</label>
+          <input type="text" id="stress_levels" placeholder="1-10" required>
+      
+          <label for="predict-time">Sleep quality:</label>
+          <input type="text" id="sleep_quality" placeholder="1-10" required>
+      
+          <label for="predict-time">Tiredness:</label>
+          <input type="text" id="tiredness" placeholder="1-10" required>
+          
+          <button type="submit">Predict</button>
+        </form>
+      </div>
+    </div>
+
+  
+  <!-- Form to Add New Data -->
+  <div class="main_container">
+    <div class="proper_container">
+      <form id="add-data-form">
+        <h2>Add New Data</h2>
+
+        <label for="add-upper-bp">Upper BP:</label>
+        <input type="number" id="add-upper-bp" placeholder="e.g., 140" required>
+        
+        <label for="add-lower-bp">Lower BP:</label>
+        <input type="number" id="add-lower-bp" placeholder="e.g., 80" required>
+
+        <label for="add-date">Workday? (1/0):</label>
+        <input type="text" id="add-workday" placeholder="e.g. (1/0)" required>
+        
+        <label for="add-time">Stress Level:</label>
+        <input type="text" id="add-stress" placeholder="e.g., 1-10" required>
+
+        <label for="predict-time">Sleep quality:</label>
+        <input type="text" id="add-sleep" placeholder="1-10" required>
+
+        <label for="predict-time">Tiredness:</label>
+        <input type="text" id="add-tiredness" placeholder="1-10" required>
+        
+        <button type="submit">Add Data</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="main_container">
+    <div class="proper_container">
+      <h2>Retrain the model</h2>
+      <button id="retrain-button" type="button">Retrain</button>
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>

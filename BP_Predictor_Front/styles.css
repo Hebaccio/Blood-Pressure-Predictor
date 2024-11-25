@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #1c2e4a;
+  }
+
+  .main_title{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-top: 100px;
+  }
+
+  .main_container{
+    width: 100%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .proper_container{
+    width: 95%;
+    max-width: 1000px;
+    background-color: #23395d;
+    border-radius: 15px;
+  }
+
+  h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  label{
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    margin-left: 40px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 15px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1c2e4a;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+  }
+
+  button{
+    padding: 15px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #6C48C5;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+  }
+
+  #retrain-button{
+    margin-bottom: 20px;
+  }
+
+  button:hover{
+    background-color: #6C22A6;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.02);
+  }
+  
+  .result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1c2e4a;
+    color: white;
+    font-size: 20px;
+    height: 23px;
+  }
